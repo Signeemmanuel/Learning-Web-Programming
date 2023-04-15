@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#login-form {
+    padding: 20px;
+    height: 300px;
+    width: 320px;
+    border: 2px solid #3d3d3d;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    border-radius: 10px; 
+    box-shadow: #1d1d1d 1px 1px 10px; 
+}
+
+h1 {
+    margin-bottom: 20px;;
+}
+
+input {
+    margin-bottom: 10px;
+    height: 30px;
+}
+
+#login {
+    width: 70px;
+    margin: 10px auto;
+    height: 30px;
+}
