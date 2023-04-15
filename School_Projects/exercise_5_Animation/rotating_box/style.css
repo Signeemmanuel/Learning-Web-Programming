@@ -1,0 +1,18 @@
+#box {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    
+    animation: 3s ease-in-out infinite roll;
+
+}
+
+@keyframes roll {
+    10% {
+        
+        transform:   translate(0, 0) rotate(0deg)
+    }
+    90% {
+        transform: translate(150px, 0) rotate(350deg)
+    }
+}
