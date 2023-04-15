@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    background-color: rgb(137, 137, 220);
+    height: 14vh;    
+}
+
+.outer-flex-area, .inner-flex-area {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.outer-flex-area {
+    height: 84vh;
+    margin-top: 2vh;
+}
+
+.inner-flex-area{
+    width: 83%;
+    height: 100%;
+}
+
+.side-bar {
+    background-color: rgb(133, 208, 127);
+    height: 100%;
+    width: 15%;
+    flex-grow: 1;
+}
+
+main {
+    background-color: orange;
+    width: 95%;
+    height: 83%;
+    align-self: flex-start;
+}
+
+footer {
+    background-color: rgb(227, 147, 230);
+    width: 100%;
+    height: 15%;
+    align-self: flex-end;
+}
+
+p {
+    position: relative;
+    top: 50%;
+    text-align: center;
+    margin: auto;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
