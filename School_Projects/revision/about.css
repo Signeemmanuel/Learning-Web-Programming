@@ -1,0 +1,10 @@
+body {
+  display: grid;
+  height: 100vh;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+}
+
+div[class^="box"] {
+  border: 2px solid black;
+}
